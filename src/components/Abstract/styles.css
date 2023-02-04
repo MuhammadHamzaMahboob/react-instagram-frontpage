@@ -1,0 +1,13 @@
+/* .header-right{
+ margin: 30px;
+
+} */
+.header {
+  max-width: max-content;
+  margin: auto;
+  margin-top: 20px;
+}
+
+a {
+  margin-right: 15px !important
+}
