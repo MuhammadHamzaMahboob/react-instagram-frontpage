@@ -6,4 +6,5 @@ const getAPIData = (url) => (
       <h1>Caught an error.</h1>
     })
 )
+
 export default getAPIData

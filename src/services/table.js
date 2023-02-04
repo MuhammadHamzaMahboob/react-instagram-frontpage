@@ -10,4 +10,5 @@ const List = () => (
     </thead>
   </table>
 )
+
 export default List

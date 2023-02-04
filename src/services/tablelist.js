@@ -10,4 +10,5 @@ const ListName = ({ name, email }) => (
     </tbody>
   </table>
 )
+
 export default ListName

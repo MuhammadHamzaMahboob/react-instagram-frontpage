@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-
 import getAPIData from '../../services/apigetter'
 
 const API_URL = '/api/v1/stories'
@@ -16,6 +15,7 @@ const Home = () => {
       }
     })
   }, [stories])
+  
   return (
     <div>
       { stories.map((image) => (

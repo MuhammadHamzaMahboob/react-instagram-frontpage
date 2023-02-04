@@ -8,10 +8,8 @@ import ErrorPage from './components/Pages/ErrorPage'
 
 function App() {
   return (
-
     <div className='App'>
       <Header />
-
       <Routes>
         <Route exact path='/follower' element={<Follower />} />
         <Route exact path='/following' element={<Following />} />
@@ -19,7 +17,6 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-
     </div>
   )
 }
